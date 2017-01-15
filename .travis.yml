@@ -1,0 +1,7 @@
+language: ruby
+rvm:
+  - 2.1.1
+notifications:
+  email:
+    on_success: never
+  webhooks: "http://ci.wanelo.com/projects/818f52c6-916e-440c-9457-48917c2d4987/status"
